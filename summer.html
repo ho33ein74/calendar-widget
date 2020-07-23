@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="layout.min.css" />
+	<title>Widget</title>
+	<!--
+	 ********************************************
+	 * Author 	: Amir Shokri					*
+	 * Email 	: amirsh.nll@gmail.com 			*
+	 * Website	: www.amirshnll.ir 				*
+	 * Date 	: 2020, May 					*
+	 * Location : Iran, Tehran 					*
+	 ********************************************
+	-->
+</head>
+<body>
+	<br />
+	<section class="page" dir="rtl">
+		<div class="widget summer" id="widget">
+			<div class="overly"></div>
+			<div class="container">
+				<header>
+					<div class="widget-header">
+						<p class="c-pointer d-inline" onclick="close_widget()"><a>&times;</a></p>
+					</div>
+				</header>
+				<main>
+					<div class="widget-content">
+						<time><p id="day"></p></time>
+						<time><p id="date"></p></time>
+						<time><p id="lunar"></p></time>
+						<time><p id="gregorian" dir="ltr"></p></time>
+						<time><p id="time"></p></time>
+					</div>
+				</main>
+				<footer>
+					<div class="widget-footer">
+						<div class="widget-footer-item">
+							<p><img src="img/icon3.png" title="طلوع آفتاب" alt="طلوع آفتاب" /></p>
+							<time><p id="toloaftab"></p></time>
+						</div>
+						<div class="widget-footer-item">
+							<p><img src="img/icon5.png" title="اذان صبح" alt="اذان صبح" /></p>
+							<time><p id="azansobh"></p></time>
+						</div>
+						<div class="widget-footer-item">
+							<p><img src="img/icon1.png" title="اذان ظهر" alt="اذان ظهر" /></p>
+							<time><p id="azanzohr"></p></time>
+						</div>
+						<div class="widget-footer-item">
+							<p><img src="img/icon4.png" title="اذان  مغرب و عشا" alt="اذان  مغرب و عشا" /></p>
+							<time><p id="azanmaghrebasha"></p></time>
+						</div>
+						<div class="widget-footer-item">
+							<p><img src="img/icon2.png" title="نیمه شب شرعی" alt="نیمه شب شرعی" /></p>
+							<time><p id="nimeshabeshari"></p></time>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="copyright">
+			<p>&copy; 2020 All Right Reserved | <a href="https://amirshnll.ir" target="_blank" title="Amir Shokri">Amir Shokri</a></p>
+		</div>
+	</section>
+
+	<script src="script.min.js"></script>
+	<script src="hijri.min.js"></script>
+</body>
+</html>
