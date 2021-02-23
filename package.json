@@ -1,0 +1,25 @@
+{
+  "name": "calendar-widget",
+  "version": "1.0.0",
+  "description": "persian calendar widget",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirshnll/calendar-widget.git"
+  },
+  "keywords": [
+    "widget",
+    "calendar",
+    "persian",
+    "farsi"
+  ],
+  "author": "Amir Shokri <amirsh.nll@gmail.com> (https://ashokri.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/amirshnll/calendar-widget/issues"
+  },
+  "homepage": "https://github.com/amirshnll/calendar-widget#readme"
+}
